@@ -29,5 +29,6 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.map do |ele|
     if ele.include?(valid_calls)
     return ele
-
+end
+end
 end
